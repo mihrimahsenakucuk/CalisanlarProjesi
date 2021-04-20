@@ -64,7 +64,7 @@ public class Main {
   
   else if(islem.equals("2")){
   
-    Yonetici yonetici = new Yonetici("Sena","Nur", "456", "5");
+    Yönetici yonetici = new Yönetici("Sena","Nur", "456", "5");
     
     String yonetici_islem= "Yönetici işlemleri\n"
                           +"1.Zam yap\n"
@@ -83,7 +83,7 @@ public class Main {
      
      else if(y_islem.equals("1")){
        System.out.println("Yöneticinin ne kadar zam yapmasını istiyorsunuz?");
-       int zam_miktari=nextInt();
+       int zam_miktari= scanner.nextInt();
        scanner.nextLine();
        yonetici.zamYap(zam_miktari);
      }
