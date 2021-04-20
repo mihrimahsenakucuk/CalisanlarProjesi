@@ -64,7 +64,7 @@ public class Main {
   
   else if(islem.equals("2")){
   
-    Yönetici yonetici = new Yönetici("Sena","Nur", "456", "5");
+    Yönetici yonetici = new Yönetici("Sena","Nur", 456, 5);
     
     String yonetici_islem= "Yönetici işlemleri\n"
                           +"1.Zam yap\n"
