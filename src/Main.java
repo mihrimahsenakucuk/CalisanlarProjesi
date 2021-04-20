@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main {
  
   public static void main(String args[]){
@@ -63,7 +64,7 @@ public class Main {
   
   else if(islem.equals("2")){
   
-    Yonetici yonetici = new Yonetici("Sena","Nur", "456");
+    Yonetici yonetici = new Yonetici("Sena","Nur", "456", "5");
     
     String yonetici_islem= "Yönetici işlemleri\n"
                           +"1.Zam yap\n"
@@ -75,7 +76,7 @@ public class Main {
    System.out.println("İşlem seçiniz");
    String y_islem=scanner.nextLine();
      
-     if(y_islem.equals("q"){
+     if(y_islem.equals("q")){
        System.out.println("Yönetici işlemlerinden çıkılıyor...");
        break;
      }
@@ -87,7 +88,7 @@ public class Main {
        yonetici.zamYap(zam_miktari);
      }
      
-     else if(y_islem.equals("2"){
+     else if(y_islem.equals("2")){
        yonetici.bilgileriGoster();
      }
              
